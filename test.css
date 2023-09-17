@@ -1,0 +1,462 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assects/Layer\ 37.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif; 
+   cursor: pointer;     
+    font-style: none;
+   padding-top: 10px;
+   padding-left: 8px;
+   padding-right: 8px;
+   background-color: rgba(0, 0, 0, 0.705);
+
+}
+li{
+    list-style: none;
+   display: inline-block;
+   padding: 10px 25px; 
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+li:hover{
+    color: orange;
+    transition: .2s;
+}
+#donate{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+#donate:hover{
+    transform: scale(1.1);
+}
+#header1{
+    position: absolute;
+    top: 45%;
+}
+#connb
+{
+ position: absolute;
+ width: 200px;
+ height: 40px;
+ background-color: transparent;
+ color: white;
+ top:98%;
+ left: 186px;
+ border-color: orange;
+ box-shadow: rgba(0, 0, 0, 0.61) 2px 2px 2px;
+}
+#header2
+       {
+        width: 100%;
+        height: 1300px;
+        background: conic-gradient(white 0deg 90deg, rgba(0, 0, 0, 0.929) 90deg 270deg, white 270deg 360deg);
+    
+       }
+       center{
+        position: absolute;
+        top: 800px;
+        left: 270px;
+       }
+       #ngo2{
+        position: absolute;
+        bottom: 7px;
+        left: 365px;
+       }
+       #gal{
+        width:100%;
+        height: 400px;
+       /* background-color: aqua;*/
+        display: flex;
+        justify-content: space-evenly;
+        position:relative;
+        top: 600px;
+
+       }
+       #left{
+        width: 50px;
+        height: 50px;
+        position:relative;
+        top: 250px;
+        left: 30px;
+
+       }
+       #dimg{
+        width: 400px;
+        height: 450px;
+        position:relative;
+        bottom: 100px;
+        left: 70px;
+       }
+       #d1{
+        position: absolute;
+        top: 305px;
+        left: 200px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       #d2{
+        position: relative;
+        bottom: 430px;
+        color: white;
+        left:-100px;
+       }
+       #d3{
+        width: 100px;
+        height: 30px;
+        position:relative;
+        background-color: yellow;
+        border: yellow 1px;
+        font-size: 12px;
+        left: 210px;
+        bottom: 20px;
+
+    }
+    /*#line1
+    {
+        width: 50px;
+        height: 50px;
+        background-color: orange;
+        top: 359px;
+        left: 130px;
+    }*/
+       #fimg{
+        width: 400px;
+        height: 450px;
+        position:relative;
+        bottom: 100px;
+        left: 30px;
+       }
+       #f1{
+        position:absolute;
+        top: 290px;
+        left: 650px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       #f2{
+        position: relative;
+        bottom: 430px;
+        color: white;
+        left:350px;
+
+       }
+       #f3{
+        width: 100px;
+        height: 30px;
+        position:relative;
+        background-color: yellow;
+        border: yellow 1px;
+        font-size: 12px;
+        left: 170px;
+        bottom: 20px;
+
+       }
+       #wimg{
+        width: 350px;
+        height: 450px;
+        position:relative;
+        bottom: 100px;
+       }
+       #w1{
+        position:absolute;
+        top: 290px;
+        right: 180px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       #w2{
+        position: relative;
+        bottom: 430px;
+        color: white;
+        right: -800px;
+
+       }
+       #w3{
+        width: 100px;
+        height: 30px;
+        position:relative;
+        background-color: yellow;
+        border: yellow 1px;
+        font-size: 12px;
+        right:-140px;
+        bottom: 20px;
+        
+
+       }
+       #right{
+        width: 50px;
+        height: 50px;
+        position:relative;
+        top: 250px;
+        right: 50px;
+       }
+       #photo{
+        width: 90%;
+        height: 800px;
+        background-color:whitesmoke;
+        position: absolute;
+        top: 1900px;
+       }
+       #img1{
+        width: 86%;
+        height: 500px;
+        position: relative;
+        left: 150px;;
+       }
+       #connect{
+        width: 63%;
+        height: 80px;
+        position: relative;
+        left: 300px;
+       }
+       #us{
+        width:59% ;
+        position: relative;
+        left: 327px;
+        bottom: 50px;
+       }
+       #social{
+        width:100%;
+        height: 180px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center
+        position:relative;
+     }
+     #i{
+        position: relative;
+        left: 250px;
+     }
+     #t{
+        position: relative;
+        left: 95px;
+
+     }
+     #l{
+        position: relative;
+        right: 65px;
+
+     }
+     #f{
+        position: relative;
+        right:220px
+     }
+     #last{
+        width: 100%;
+        height: 1300px;
+        position: relative;
+        top: 660px;
+        background-color: black;
+     }
+     #sto{
+        position: relative;
+        top: 30px;
+        left: 40%;
+     }
+     #video{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #v1{
+        width: 40%;
+        height: 400px;
+        background-image: url(./assects/Layer\ 56.png);
+        position: relative;
+        top: 40px;
+        left: 60px;
+        
+    }
+    #v2{
+        width: 40%;
+        height: 400px;
+        background-image: url(./assects/Layer\ 57.png);
+        position: relative;
+        top: 40px;
+        right: 60px;
+    }
+    #react1{
+        width:50px;
+        height:80px;
+        color: yellow;
+        position: relative;
+        top: 339px;
+        right: 10px;
+    }
+    #triangle1{
+        width: 20px;
+        height: 20px;
+        position:relative;
+        right: 50px;
+        top: 310px;
+    }
+    #project{
+        width: 60%;
+        height: 30px;
+        position: relative;
+        color: white;
+        top: 310px;
+        right: 35px;
+        font-size: 100px;
+    }
+    #react2{
+        width:30px;
+        height:50px;
+        position: absolute;
+        top: 350px;
+
+    }
+    #triangle2{
+        width: 20px;
+        height: 20px;
+        position:relative;
+        top: 360px;
+
+    }
+    #together{
+        width: 60%;
+        height: 30px;
+        position: relative;
+        color: white;
+        top: 360px;
+        right: -15px;
+        font-size: 30px;
+
+    }
+    #forest{
+        width: 100%;
+        height: 150px;
+        background-image: url(./assects/forest.png);
+        background-position: center;
+        position:relative;
+        top: 130px;
+    }
+    #make{
+        width: 50%;
+        height: 20px;
+        position: relative;
+        top: 65px;
+        left: 130px;
+    }
+    #btn{
+        width: 250px;
+        height: 40px;
+        background-color: yellow;
+        position: relative;
+        text-transform: uppercase;
+        left: 250px;
+        top: 60px;
+    }
+    #end{
+        width: 80%;
+        height: 20px;
+        background-image: url(./assects/Home\ \ \ \ _\ \ \ \ About\ Us\ \ \ \ _\ \ \ \ Our\ NGO\ Services\ \ \ \ _\ \ \ \ Donation.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 750px;
+        left: 240px;
+    }
+    #lin{
+        width: 80%;
+        height: 3px;
+        background-image: url(./assects/Shape\ 14\ copy\ 3.png);
+        position:relative;
+        top: 200px;
+        left: 150px;
+    }
+    #services{
+        width:100%;
+        height:300px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #ph{
+        width:25%;
+        height:150px;
+        background-color:rgba(255, 255, 255, 0.103);
+        position:relative;
+        top: 40px;
+    }
+    #num{
+        width: 200px;
+        height:20px;
+        position: relative;
+        top: 70px;
+        left: 50px;
+    }
+    #sym{
+        width: 40px;
+        height: 50px;
+        position: relative;
+        right: 70px;
+        top:30px;
+    }
+#mail{
+    width:25%;
+    height:150px;
+    background-color:rgba(255, 255, 255, 0.103);
+    position: relative;
+    top: 40px;
+}
+#mai{
+    width: 40px;
+    height: 50px;
+    position: relative;
+    left: 130px;
+    top: 30px;
+}
+#ma{
+    width: 200px;
+    height:20px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+#loc{
+    width: 300px;
+    height:150px;
+    position: relative;
+    top: 30px;
+}
+ 
+#lin1{
+  width: 100%;
+   height: 3px; 
+   background-image: url(./assects/Shape\ 14\ copy\ 2.png);
+   position: relative;
+   top: 350px;
+}
+#lin2{
+   position:relative;
+   top: 2950px;
+   left: 290px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+
+
+}
